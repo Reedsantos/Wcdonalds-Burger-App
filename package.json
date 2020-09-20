@@ -1,0 +1,33 @@
+{
+  "name": "wcdonalds-burger-app",
+  "version": "1.0.0",
+  "description": "This app uses express handlebars to post put and delete burgers",
+  "main": "server.js",
+  "dependencies": {
+    "express-handlebars": "^5.1.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reedsantos/Wcdonalds-Burger-App.git"
+  },
+  "keywords": [
+    "Wcdonalds",
+    "Burger",
+    "App",
+    "Express",
+    "Handlebars"
+  ],
+  "author": "Reed Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Reedsantos/Wcdonalds-Burger-App/issues"
+  },
+  "homepage": "https://github.com/Reedsantos/Wcdonalds-Burger-App#readme"
+}
