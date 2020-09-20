@@ -1,3 +1,4 @@
+// Create connection to local server
 var mysql = require("mysql");
 
 if (process.env.JAWSDB_URL) {
@@ -18,4 +19,5 @@ connection.connect(function(err) {
     }
     console.log("connected as id " + connection.threadId);
 });
+// Export
 module.exports = connection;
