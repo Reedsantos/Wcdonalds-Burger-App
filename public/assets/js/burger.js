@@ -1,4 +1,5 @@
 $(function() {
+    // Add burger onclick
     $(".create-form").on("submit", function(event) {
         event.preventDefault();
 
@@ -7,6 +8,7 @@ $(function() {
             devoured: 0
         };
 
+        // POST request
         $.ajax("/api/burgers", {
             type: "POST",
             data: newBurger
@@ -15,7 +17,7 @@ $(function() {
             location.reload();
         });
     });
-
+    // Devour onclick
     $(".devourBurger").on("click", function(event) {
         event.preventDefault();
 
@@ -24,6 +26,7 @@ $(function() {
             devoured: 1
         };
 
+        // PUT request
         $.ajax("/api/burgers/" + id, {
             type: "PUT",
             data: devouredState
@@ -32,7 +35,7 @@ $(function() {
             location.reload();
         });
     });
-
+    // onclick DELETE request
     $(".deleteBurger").on("click", function(event) {
         event.preventDefault();
 
@@ -45,4 +48,4 @@ $(function() {
         }).then(location.reload());
     });
 
-});
+})
