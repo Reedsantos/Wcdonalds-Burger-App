@@ -1,6 +1,6 @@
 # Wcdonalds-Burger-App <img src='https://img.shields.io/badge/License-MIT-black' alt='github badge'>
 ![Screenshot](screenshot.png)
-![Link to demo](https://drive.google.com/file/d/1E4LzrqXr-dUt8Jko1NDoyaZVXOO8fduX/view)
+[Link to demo](https://drive.google.com/file/d/1E4LzrqXr-dUt8Jko1NDoyaZVXOO8fduX/view)
 ## Description
 This application uses express handlebars to create burgers that will be added to a database. The user can then choose to devour and delete the burger afterwards.
 ### Table of Contents
